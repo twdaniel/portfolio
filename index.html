@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>twdaniel portfolio</title>
+	<link rel="stylesheet" href="./images/reset.css">
+	<link rel="stylesheet" href="./images/style.css">
+	<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" >
+    
+
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<img src="./images/Snowman_quote.png" alt="logo" />
+			<h1>twDaniel Portfolio</h1>
+			<ul id="nav">
+				<li><a href="./index.html#main">作品</a></li>
+				<li><a href="./index.html#follow">FOLLOW</a></li>
+				<!-- <li><a href="#">導航3</a></li>
+				<li><a href="#">導航4</a></li>
+				<li><a href="#">導航5</a></li> -->
+				
+					
+			</ul>
+		</div>
+		<a name="main"></a>
+		<div id="main" class="clearfix">
+			<div id="lside">
+				<div class="subtitle">
+					<img src="./images/bullet_circle_quote.png" alt="" />
+					<h1>作品</h1>
+					<a href="http://victoroad.esy.es/onlinemsg/php_index.php" target="_blank">More &gt;&gt;</a>
+				</div>
+				<div class="four">
+					<h2>wikiviewer</h2>
+					<a href="https://codepen.io/twdaniel/full/yapRAa/" target="_blank"><img src="./images/wikiviewer.png" alt="wikiveiwer" /></a>
+				</div>
+				<div class="four">
+					<h2>ShowTLW</h2>
+					<a href="https://codepen.io/twdaniel/full/xEAgmq/" target="_blank"><img src="./images/weather.png" alt="showTLW" /></a>
+				</div>
+				<div class="four">
+					<h2>RandomQuote</h2>
+					<a href="http://victoroad.esy.es/randomquote/" target="_blank"><img src="./images/randomquote.png" alt="randomquote" /></a>
+				</div>
+				<div class="four">
+					<h2>Tribute</h2>
+					<a href="https://codepen.io/twdaniel/full/KrGJPA/" target="_blank"><img src="./images/tribute.png" alt="tribute" /></a>					
+				</div>
+			</div>
+			<div id="rside">
+				<div class="subtitle">				
+					<img src="./images/bullet_circle_quote.png" alt="" />
+					<h1>留言</h1>
+								
+				</div>
+				<div id="comment"><form action="http://victoroad.esy.es/onlinemsg/post.php" method="post" id="formPost" onSubmit="return checkForm();">
+					<p>姓名: <input type="text" name="msgName"></p>
+					<p>性別: <input type="radio" name="msgSex" value="男" checked>男 <input type="radio" name="msgSex" value="女">女</p>
+					<p>信箱: <input type="text" name="msgMail"></p><br/>	
+					留言: <textarea name="msgContent"></textarea>
+					<p><input type="hidden" name="action" value="add1"><input type="submit" name="button" value="提交"></p>
+					</form>
+				</div>
+				<a name="follow"></a>
+				<div class="subtitle">				
+					<img src="./images/bullet_circle_quote.png" alt="" />
+					<h1>FOLLOW ME</h1>	
+				</div>
+				<div id="social">
+					<a id="codepen" href="http://codepen.io/twdaniel/" target="_blank"><i class="fa fa-codepen fa-fw"></i></a>
+					<a id="twitter" href="https://twitter.com/culaysun" target="_blank"><i  class="fa fa-twitter fa-fw"></i></a>
+        			<a id="github" href="https://github.com/twdaniel" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+        			<a id="mail" href="mailto:culaysun@gmail.com" target=""><i class="fa fa-share fa-fw" aria-hidden="true"></i></a>
+				</div>
+
+			</div>
+		</div>
+		<footer>
+			<ul>
+				<li><a href="mailto:culaysun@gmail.com">聯絡資訊</a></li>
+				<!-- <li><a href="#">聯絡資訊</a></li>
+				<li><a href="#">聯絡資訊</a></li> -->
+			</ul>
+			<address>
+				302 新竹縣竹北市勝利路 <br />
+				&copy 2016 twdaniel All rights reserved.
+			</address>
+		</footer>
+	</div>
+</body>
+</html>
